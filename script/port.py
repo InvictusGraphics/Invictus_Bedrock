@@ -3,7 +3,7 @@ from shutil import copyfile
 import os
 
 paths = json.load(open('paths.json'))
-path_source = os.path.join(paths['invictus_java'], "assets/minecraft/textures")
+path_source = os.path.join(paths['invictus_java'], "assets", "minecraft", "textures")
 path_target = os.path.join(paths['invictus_bedrock'], "textures") 
 
 # Load mappings from the output of map.py

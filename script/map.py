@@ -4,7 +4,7 @@ import os
 import json
 
 paths = json.load(open('paths.json'))
-path_origin = os.path.join(paths['vanilla_java'], 'assets/minecraft/textures')
+path_origin = os.path.join(paths['vanilla_java'], 'assets', 'minecraft', 'textures')
 path_ported = os.path.join(paths['vanilla_bedrock'], 'textures')
 
 # How similar must the two files be?

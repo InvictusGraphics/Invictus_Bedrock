@@ -1,5 +1,7 @@
 models/
 textures/
+script/map.json
+script/map_failed.json
 blocks.json
 
 *.dat

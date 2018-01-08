@@ -2,8 +2,8 @@ import json
 import os
 
 paths = json.load(open('paths.json'))
-path_ported_model = os.path.join(paths['invictus_bedrock'], "models/mobs.json")
-path_origin_model = os.path.join(paths['vanilla_bedrock'], "models/mobs.json")
+path_ported_model = os.path.join(paths['invictus_bedrock'], "models", "mobs.json")
+path_origin_model = os.path.join(paths['vanilla_bedrock'], "models", "mobs.json")
 
 # Load models
 models = {}
