@@ -3,8 +3,9 @@ import numpy as np
 import os
 import json
 
-path_origin = r"C:\Users\mike\AppData\Roaming\.minecraft\versions\17w50a\assets\minecraft\textures"
-path_ported = r"C:\Users\mike\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\resource_packs\Vanilla_1.2.6\textures"
+paths = json.load(open('paths.json'))
+path_origin = os.path.join(paths['vanilla_java'], 'assets/minecraft/textures')
+path_ported = os.path.join(paths['vanilla_bedrock'], 'textures')
 
 # How similar must the two files be?
 matching_tolerance = .001

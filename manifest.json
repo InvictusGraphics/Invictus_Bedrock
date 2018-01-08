@@ -1,0 +1,18 @@
+{
+  "format_version": 1,
+  "header": {
+    "name": "Invictus",
+    "description": "Crisp and Refined",
+    "pack_id": "f5880ea7-60eb-4dd6-9cb8-d89bb65afbf0",
+    "packs_version": [0, 0, 2],
+    "min_engine_version": [1, 2, 6]
+  },
+  "modules": [
+      {
+        "description": "Crisp and Refined",
+        "version": [0, 0, 2],
+        "type": "resources",
+        "uuid": "aab13138-ea0f-49a2-8e87-32bb7048fdaa"
+      }
+    ]
+}

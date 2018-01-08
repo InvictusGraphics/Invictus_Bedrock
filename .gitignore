@@ -1,0 +1,6 @@
+models/
+textures/
+blocks.json
+
+*.dat
+desktop.ini

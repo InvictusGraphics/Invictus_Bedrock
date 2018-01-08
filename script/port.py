@@ -2,8 +2,9 @@ import json
 from shutil import copyfile
 import os
 
-path_source = r"C:\Users\mike\AppData\Roaming\.minecraft\resourcepacks\Invictus_Textures\assets\minecraft\textures"
-path_target = r"C:\Users\mike\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\resource_packs\Invictus_Bedrock\textures"
+paths = json.load(open('paths.json'))
+path_source = os.path.join(paths['invictus_java'], "assets/minecraft/textures")
+path_target = os.path.join(paths['invictus_bedrock'], "textures") 
 
 # Load mappings from the output of map.py
 mappings = {}
